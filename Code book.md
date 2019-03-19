@@ -16,8 +16,7 @@ Test data
 - Y_test: import from Y_test.txt
 
 
-===========================================================================================================================================================
-MERGED DATASET 
+MERGED DATASET
 
 - train_final: combined X_train and Y_train  
 - test_final: combined X_test and Y_test 
@@ -25,8 +24,10 @@ MERGED DATASET
 - complete_data: combine train and testset 
 
 
-===========================================================================================================================================================
 SELECT RELEVANT COLUMNS AND SUMMARIZED DATA 
 
 - measurements_std_mean: complete_data, where only the group by items (Subject, Activity) and all columns containing mean() or std() are retained 
+
+
+OUTPUT
 - summary measurements: mean of all variables of measurements_std_mean, grouped by subject and activity 
